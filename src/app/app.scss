@@ -1,0 +1,67 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+.menu-logo {
+  width: 50%;
+  max-width: 70px;
+}
+
+
+.menu {
+  background-color:#2B2B2B !important; /* This sets the background color*/
+ }
+
+/*Set the background to transparent for ion-item*/
+.menu .item {
+  background-color: transparent;
+  border:none;   /*Removes all borders*/
+  border-top: 1px solid;   /*Top Border for each menu item*/
+  border-bottom:2px solid;   /*Bottom border for each menu item*/
+  border-color: #2B2B2B;   /*Sets colors for top and bottom border*/
+  color: #fff;    /*Text color for each item*/
+}
+
+/*Changes the border for the last item*/
+.menu .item:last-child {
+  border-bottom: 1px solid #2B2B2B;
+}
+
+.menu .item-complex .item-content, .dark .item-radio .item-content {
+  background-color: transparent;
+}
+
+/*Just makes the type white*/
+.menu h2,
+.menu h3,
+.menu p,
+.menu a {
+  color: #fff;  /*Text color for each item, overrides the color property above*/
+}
+
+ion-card-header {
+
+  display: block;
+  font-weight: bold !important;
+  text-overflow: inherit !important;
+  white-space: inherit !important;
+
+}
+
+
+.bg-section {
+  background-color: #cacaca!important;
+}

@@ -1,0 +1,28 @@
+page-aboutus {
+
+  .card-background-page {
+
+    ion-card {
+      position: relative;
+      text-align: justify;
+    }
+
+    .scroll-content {
+      padding: 0!important;
+    }
+
+    .services {
+
+      margin-top: 30px;
+      padding: 5px;
+
+      ion-label  {
+        font-size: 12px;
+      }
+
+    }
+
+  }
+
+
+}

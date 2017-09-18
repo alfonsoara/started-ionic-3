@@ -1,0 +1,33 @@
+page-orchextra {
+  .card-background-page {
+
+    ion-card {
+      position: relative;
+      text-align: justify;
+    }
+
+    .card-title {
+      position: absolute;
+      top: 36%;
+      font-size: 2.0em;
+      width: 100%;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .scroll-content {
+      padding: 0!important;
+    }
+
+    img {
+      width: 100%;
+      max-width: 500px;
+    }
+
+    .app-video {
+      margin-top: 35px;
+    }
+
+  }
+}
+
